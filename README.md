@@ -1,1 +1,3 @@
 # EdenCreative
+
+Web bootstrapping
