@@ -1,0 +1,30 @@
+.background-custom{
+    background-position: center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#index{
+    background-image: url(../images/bcg_slide-1.jpg);
+
+}
+
+
+#discover{
+    /*background-image: url(../images/bcg_slide-2.jpg);*/
+    background-color: azure;
+}
+
+.text-block{
+    background-color: purple;
+    color: azure;
+    font-family: raleway;
+    padding: 15px;
+}
+
+.top5 {padding-top:5%;}
+.bottom5 {padding-bottom:5%;}
