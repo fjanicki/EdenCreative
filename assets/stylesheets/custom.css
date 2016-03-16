@@ -13,10 +13,26 @@
 
 }
 
-
 #discover{
     /*background-image: url(../images/bcg_slide-2.jpg);*/
-    background-color: azure;
+    background-color: ivory;
+}
+
+#theuniverse{
+    /*background-image: url(../images/bcg_slide-2.jpg);*/
+    background-color: green;
+}
+
+#evestory{
+    background-image: url(../images/bcg_slide-4.jpg);
+}
+
+#lilithstory{
+    background-image: url(../images/bcg_slide-5.jpg);
+}
+
+#whatfollows{
+    background-color: ivory;
 }
 
 .text-block{
@@ -26,5 +42,30 @@
     padding: 15px;
 }
 
+.story-block
+{
+    background-color: rgba(0,0,0,0.7);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-family:'Railway';
+}
+li {
+  padding-left: 1.3em;
+}
+li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
 .top5 {padding-top:5%;}
 .bottom5 {padding-bottom:5%;}
+
+.shadowBox{
+    box-shadow: 10px 10px 5px #888888;
+}

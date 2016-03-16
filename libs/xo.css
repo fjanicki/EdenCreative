@@ -1,6 +1,6 @@
 /* ----- RESET ----- */
 *{outline: 0;padding: 0;margin: 0;border: 0;}
-body,p,ul,ol,dl,textarea,input {font-family: 'LeagueGothic'; font-size:25px;}
+body,p,ol,dl,textarea,input {font-family: 'LeagueGothic'; font-size:25px;}
 
 /* ----- FONTS ----- */
 @font-face { font-family: 'LeagueGothic';  src:url('../assets/fonts/LeagueGothic.otf'); }

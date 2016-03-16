@@ -16,7 +16,11 @@ $(document).ready(function () {
 	});
 
 	parallax.add($("#discover"))
-			.add($("#index"));
+			.add($("#index"))
+			.add($("#theuniverse"))
+			.add($("#evestory"))
+			.add($("#lilithstory"))
+			.add($("#whatfollows"));
 
 	parallax.background = $("body");
 
@@ -35,9 +39,28 @@ $(document).ready(function () {
 
 	parallax.discover.onload=function(){
 		setLeft("index", "Home");
-		setRight("me", "The Guy");
+		setRight("theuniverse", "The Universe");
 	};
 
+	parallax.theuniverse.onload=function(){
+		setLeft("discover", "Discover");
+		setRight("evestory", "Eve Story");
+	};
+
+	parallax.evestory.onload=function(){
+		setLeft("theuniverse", "The Universe");
+		setRight("lilithstory", "Lilith Story");
+	};
+
+	parallax.lilithstory.onload=function(){
+		setLeft("evestory", "Eve Story");
+		setRight("whatfollows", "The Magic");
+	};
+
+	parallax.whatfollows.onload=function(){
+		setLeft("lilithstory", "Lilith Story");
+		setRight("", "");
+	};
 
 	//Sets the correct triggers for the arrows, plus arrow keys
 	function setRight(page, text){
