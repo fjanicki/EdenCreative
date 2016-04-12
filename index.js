@@ -20,7 +20,11 @@ $(document).ready(function () {
 			.add($("#theuniverse"))
 			.add($("#evestory"))
 			.add($("#lilithstory"))
-			.add($("#whatfollows"));
+			.add($("#whatfollows"))
+			.add($("#atanygiventime"))
+			.add($("#whenfounded"))
+			.add($("#teamis"))
+			.add($("#contactus"));
 
 	parallax.background = $("body");
 
@@ -33,6 +37,7 @@ $(document).ready(function () {
 
 	//Setting up page navigation
 	parallax.index.onload=function(){
+		setLeft("contactus", "Our Contact");
 		setRight("discover", "Discover");
 		$("#rightControl").fadeIn(500).fadeOut(500).fadeIn(500).fadeOut(500).fadeIn(500);
 	};
@@ -59,8 +64,30 @@ $(document).ready(function () {
 
 	parallax.whatfollows.onload=function(){
 		setLeft("lilithstory", "Lilith Story");
-		setRight("", "");
+		setRight("atanygiventime", "And then");
 	};
+
+	parallax.atanygiventime.onload=function(){
+		setLeft("whatfollows", "The Magic");
+		setRight("whenfounded", "Founded In");
+	};
+
+	parallax.whenfounded.onload=function(){
+		setLeft("atanygiventime", "And then");
+		setRight("teamis", "The Team");
+	};
+
+	parallax.teamis.onload=function(){
+		setLeft("whenfounded", "Founded In");
+		setRight("contactus", "Contact Us");
+	};
+
+	parallax.contactus.onload=function(){
+		setLeft("teamis", "The Team");
+		setRight("index", "Home");
+	};
+
+
 
 	//Sets the correct triggers for the arrows, plus arrow keys
 	function setRight(page, text){

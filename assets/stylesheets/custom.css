@@ -19,8 +19,7 @@
 }
 
 #theuniverse{
-    /*background-image: url(../images/bcg_slide-2.jpg);*/
-    background-color: green;
+    background-image: url(../images/bg_universe.jpg);*/
 }
 
 #evestory{
@@ -33,6 +32,38 @@
 
 #whatfollows{
     background-color: ivory;
+}
+
+#atanygiventime{
+    background-image: url(../images/bcg_slide-7.jpg);
+}
+
+#whenFounded{
+    background-image: url(../images/bcg_slide-8.jpg);
+}
+
+#teamis{
+    background-image: url(../images/bcg_slide-9.jpg);
+}
+
+#contactus{
+    background-image: url(../images/bcg_slide-10.jpg);
+}
+
+.phone:before{
+    content: "\f095";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+}
+
+.email:before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
 }
 
 .text-block{
